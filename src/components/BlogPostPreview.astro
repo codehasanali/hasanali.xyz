@@ -11,23 +11,16 @@ const { title, description, publishDate, url } = Astro.props as Props;
 
 <article class="post-preview">
 	<header>
-		<button  class="back_btn"><a href="https://blog.hasanali.xyz">Back</a></button>
 		<time>{publishDate}</time>
-		<a href={url}><h1 class="title">{title}</h1></a>
+		<a href={url}>
+			<h1 class="title">{title}</h1>
+		</a>
 	</header>
 	<p>{description}</p>
 	<a href={url}>Daha Fazlası</a>
 </article>
 
 <style>
-	.back_btn {
-	
-		border: transparent;
-		background-color: transparent;
-		color:white;
-		font-family: 'Courier New', Courier, monospace;
-	font-size: 0.85em;
-	}
 	.post-preview {
 		padding-bottom: 2rem;
 		margin-bottom: 2rem;

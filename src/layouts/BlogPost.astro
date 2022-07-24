@@ -29,7 +29,10 @@ const {
 				<h1 class="title">{title}</h1>
 				<time>{publishDate}</time>
 			</header>
+			<button  class="back_btn"><a href="https://blog.hasanali.xyz">Back</a></button>
+
 			<main>
+
 				<slot></slot>
 			</main>
 		</article>
@@ -45,6 +48,14 @@ const {
 		margin-bottom: 4rem;
 		max-width: 1280px;
 	}
+	.back_btn {
+	
+	border: transparent;
+	background-color: transparent;
+	color:white;
+	font-family: 'Courier New', Courier, monospace;
+font-size: 0.85em;
+}
 
 	@media (max-width: 50em) {
 		img {
