@@ -177,13 +177,12 @@ a:focus {
 }
 
 a:focus {
-	outline: 2px solid currentColor;
 	outline-offset: 0.25em;
 }
 
 strong {
 	font-weight: 600;
-	color: inherit;
+
 }
 
 /* Supporting Content */
