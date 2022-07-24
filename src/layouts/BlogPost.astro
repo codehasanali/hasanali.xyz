@@ -25,18 +25,8 @@ const {
 	</head>
 
 	<body>
-		<Header />
 		<article class="wrapper content">
 			<header>
-				{heroImage && (
-					<img
-						width="720"
-						height="420"
-						loading="lazy"
-						src={heroImage.src}
-						alt={heroImage.alt}
-					/>
-				)}
 				<h1 class="title">{title}</h1>
 				<time>{publishDate}</time>
 			</header>
@@ -67,6 +57,7 @@ const {
 
 	.content {
 		margin-bottom: 8rem;
+		margin-top: 5rem;
 	}
 
 	.content :global(h2) {
