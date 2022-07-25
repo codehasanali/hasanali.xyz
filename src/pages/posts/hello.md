@@ -12,7 +12,7 @@ Bu blog sayafasında daha çok yks sürecimde anlatacam.
 
     ```bash
      Hedeflerim:
-      Okul açılasa kadar  tyt %50 bitirmek istiyorum.
+      Okul başlasaya  kadar  tyt %50 bitirmek istiyorum.
       Ders çalışma alışkanlığı kazanabilmek bilmek.
       Ana hedefim ilk 20.000 sıralam yapmak :)
 
